@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+	<html>
+<head>
+	<meta charset="utf-8">
+		<meta name="keywords" content="вёрстка, HTML, CSS, обучение">
+		<meta name="description" content="Мой первый сайт ">
+		<title>Сайт ученика группы БАС-23.161 Сковпень И.В</title>
+</head>
+		<body>
+<header>
+<h1>Сайт ученика группы БАС-23.161 Сковпень И.В. </h1>
+</header>
+<nav>
+		<a href="https://natk.ru/">НАТК</a>
+		<a href="form.html" download> Анкета</a>
+</nav>
+<form action="#"method="get">
+		<label>
+	Ваше имя<input type="text"name="username">
+		</label><br>
+<label for="user-field-id">Фамилия</label>
+		<input id="user-field-id" type="text" name="password"><br>
+Введите пароль<input type="password" name="password"><br>
+		</label>
+		<label>
+<textarea cols = 75 rows = 25> Пару слов о себе </textarea>
+		</label><br>
+<label for="question"> Вы студент?</label><br>
+		<input type="checkbox" checked id ="question"">
+<p>Где ты учился?</p>
+		<label>
+<input type="radio" name="eduorg" value="school">
+		Школа
+<label>
+<input type="radio" name="eduorg" value="college">
+		Колледж
+<input type="radio" name="eduorg" value="university">
+		Университет 
+</label><br>
+		<label>
+Ваш год рождения<select name="bdyear">
+<option value="2002">2002</option>
+<option value="2003">2003</option>
+<option value="2004">2004</option>
+<option value="2005">2005</option>
+<option value="2006">2006</option>
+		</select>
+		</label><br>
+<label>
+<p>Добавьте ваше фото</p>
+<input type="file" name="profilepic" hidden>
+		
+		</label><br>
+<label>
+<p> Дата окончания обучения</p>
+		<input type="date">
+		</label>
+		<label><br>
+<p> Твой номер телефона</p>
+<input type="tel">
+		</label><br>
+		<label>
+<p>Личная почта</p>
+	<input type="email">
+		</label><br>
+		<label>
+<p>Сайт</p>
+		<input type="url">
+		<input type="reset" value="Сбросить">
+		</label><br>
+		<input type="submit"><br>
+</body>
+</form>
